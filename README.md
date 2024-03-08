@@ -57,7 +57,6 @@ The project consists of 3 layers:
     
 ![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/8c4cef22-db7b-4194-9a97-51f9726d71ef)
 
-    
 
 ### **Exposures**
 
