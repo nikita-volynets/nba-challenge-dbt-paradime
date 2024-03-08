@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: m_team_performance_by_season
+    description: "This model merges detailed team performance statistics from 'tfm_team_grouped_stats' with geographical data from 'stg_teams', filtering for seasons from 2020 onwards. It includes metrics such as games played, wins, total points, field goals, three-pointers, free throws, rebounds, assists, steals, and blocks, along with the team's city and state for each season."
+    columns:
+      - name: team_id
+        description: "Unique identifier for the team."
+      - name: team_name
+        description: "Name of the team."
+      - name: city
+        description: "City where the team is based."
+      - name: state
+        description: "State where the team is located."
+      - name: season
+        description: "NBA season during which the statistics were recorded."
+      - name: season_start_on
+        description: "The start date of the NBA season."
+      - name: game_type
+        description: "Type of game, e.g., Regular Season, Playoffs."
+      - name: games
+        description: "Total number of games played by the team during the season."
+      - name: wins
+        description: "Number of games won by the team during the season."
+      - name: points
+        description: "Total points scored by the team during the season."
+      - name: field_goals_made
+        description: "Total number of field goals made by the team during the season."
+      - name: field_goals_attempted
+        description: "Total number of field goals attempted by the team during the season."
+      - name: three_point_made
+        description: "Total number of three-point field goals made by the team during the season."
+      - name: three_point_attempted
+        description: "Total number of three-point field goals attempted by the team during the season."
+      - name: free_throws_made
+        description: "Total number of free throws made by the team during the season."
+      - name: free_throws_attempted
+        description: "Total number of free throws attempted by the team during the season."
+      - name: rebounds
+        description: "Total number of rebounds secured by the team during the season."
+      - name: assists
+        description: "Total number of assists made by the team during the season."
+      - name: steals
+        description: "Total number of steals made by the team during the season."
+      - name: blocks
+        description: "Total number of blocks made by the team during the season."

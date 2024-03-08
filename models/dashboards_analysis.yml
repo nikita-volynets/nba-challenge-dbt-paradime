@@ -1,0 +1,37 @@
+version: 2
+
+exposures:
+  - name: Team_Performance_Dashboard
+    type: dashboard
+    maturity: low
+    url: https://app.sigmacomputing.com/paradime-io-nba/workbook/workbook-3UFg1EvbT5BriHVxB7cdI1?:link_source=share
+    description: NBA Teams Performance Dashboard about key metrics of NBA teams by season
+    depends_on:
+    - ref('m_team_performance_by_season')
+    owner:
+      name: Nikita Volynets
+      email: nikita.volynets@gmail.com
+
+
+  - name: Raptors_Fullmoon_Analysis
+    type: analysis
+    maturity: low
+    url: https://app.hex.tech/9fbdd66e-c23f-44d7-9431-ec421afdbe0a/app/f7273ecc-1470-442c-9f4d-7f5b5553a7a9/latest
+    description: Toronto Raptors games analysis on fullmoon dates using Hex notebook
+    depends_on:
+    - ref('m_fullmoon_raptors_games')
+    owner:
+      name: Nikita Volynets
+      email: nikita.volynets@gmail.com
+
+
+  - name: Raptors_Top_10_Comparison
+    type: analysis
+    maturity: low
+    url: https://app.hex.tech/9fbdd66e-c23f-44d7-9431-ec421afdbe0a/app/4de47f4c-016b-4678-a0fd-5dd7b42df9df/latest
+    description: Toronto Raptors mertics comarison with Top 10 NBA teams
+    depends_on:
+    - ref('m_raptors_vs_top_10_comparison')
+    owner:
+      name: Nikita Volynets
+      email: nikita.volynets@gmail.com

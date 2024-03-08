@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: m_raptors_vs_top_10_comparison
+    description: "This model compares three-year average performance metrics of the Toronto Raptors against the top 10 NBA teams based on win rate. It unifies data from 'tfm_raptors_3y_avg_metrics' with 'tfm_team_top_10_3y_avg_metrics' to facilitate direct comparison across key performance indicators like win rate, points per game, and shooting percentages."
+    columns:
+      - name: team_name
+        description: "Name of the NBA team. For the Raptors, it's specifically 'Toronto Raptors'. For the top 10, it includes the names of the top 10 teams based on win rate."
+      - name: win_rate
+        description: "Average win rate of the team over the specified seasons."
+      - name: points_per_game
+        description: "Average points scored per game."
+      - name: pct_field_goals
+        description: "Field goal shooting percentage."
+      - name: pct_three_point
+        description: "Three-point shooting percentage."
+      - name: pct_throws_attempted
+        description: "Free throw shooting percentage."
+      - name: rebounds_per_game
+        description: "Average rebounds per game."
+      - name: assists_per_game
+        description: "Average assists per game."
+      - name: steals_per_game
+        description: "Average steals per game."
+      - name: blocks_per_game
+        description: "Average blocks per game."
+      - name: avg_spending
+        description: "Average spending on team payroll and luxury tax."

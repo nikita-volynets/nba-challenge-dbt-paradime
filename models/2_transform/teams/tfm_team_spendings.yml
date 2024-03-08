@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: tfm_team_spendings
+    description: "This model aggregates financial information from the 'stg_team_spend_by_season' source table, detailing team payroll, active payroll, luxury tax space, and calculates total spending by adding team payroll and luxury tax bill for each team per season."
+    tests:
+      - unique:
+          column_name: "team_id || '-' || season"
+    columns:
+      - name: team_id
+        description: '{{ doc("team_id") }}'
+        tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: team_name
+        description: '{{ doc("team_name") }}'
+      - name: season
+        description: '{{ doc("season") }}'
+      - name: team_payroll
+        description: "Total expenditure on player salaries by the team for the specified season."
+      - name: active_payroll
+        description: "Total active payroll, indicating the sum of salaries for currently active players on the team."
+      - name: luxury_tax_space
+        description: "The available financial space the team has before reaching the luxury tax threshold."
+      - name: total_spending
+        description: "Total spending by the team, calculated as the sum of team payroll and luxury tax bill."
+

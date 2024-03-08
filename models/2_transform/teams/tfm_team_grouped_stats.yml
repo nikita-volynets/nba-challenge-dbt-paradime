@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: tfm_team_grouped_stats
+    description: "This model aggregates team performance statistics from the 'stg_games' source table. It summarizes the total games played, wins, total points scored, field goals, three-pointers, free throws, rebounds, assists, steals, blocks, turnovers, and personal fouls for each team, categorized by season and game type."
+    columns:
+      - name: team_id
+        description: "Unique identifier for the team."
+        tests:
+          - not_null
+      - name: team_name
+        description: "Name of the team."
+      - name: season
+        description: "NBA season during which the games were played."
+      - name: game_type
+        description: "Type of game, e.g., Regular Season, Playoffs."
+      - name: games
+        description: "Total number of games played."
+      - name: wins
+        description: "Number of games won."
+      - name: points
+        description: "Total points scored."
+      - name: field_goals_made
+        description: "Total number of field goals made."
+      - name: field_goals_attempted
+        description: "Total number of field goals attempted."
+      - name: three_point_made
+        description: "Total number of three-point field goals made."
+      - name: three_point_attempted
+        description: "Total number of three-point field goals attempted."
+      - name: free_throws_made
+        description: "Total number of free throws made."
+      - name: free_throws_attempted
+        description: "Total number of free throws attempted."
+      - name: rebounds
+        description: "Total number of rebounds secured."
+      - name: assists
+        description: "Total number of assists made."
+      - name: steals
+        description: "Total number of steals."
+      - name: blocks
+        description: "Total number of blocks."
+      - name: turnovers
+        description: "Total number of turnovers committed."
+      - name: personal_fouls
+        description: "Total number of personal fouls committed."

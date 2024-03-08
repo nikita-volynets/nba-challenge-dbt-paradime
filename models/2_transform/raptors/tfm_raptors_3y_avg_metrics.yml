@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: tfm_raptors_3y_avg_metrics
+    description: >-
+      "This model aggregates performance metrics and average spending for the Toronto Raptors over the past 
+      three seasons (2020, 2021, 2022) during regular season games. It calculates the win rate, points per game, shooting percentages 
+      (field goals, three-pointers, free throws), rebounds per game, assists per game, steals per game, blocks per game, and the average spending."
+    columns:
+      - name: team_name
+        description: "Name of the team, which is Toronto Raptors for this model."
+        tests:
+          - accepted_values:
+              values: ['Toronto Raptors']
+      - name: win_rate
+        description: "Win rate of the team across the specified seasons."
+      - name: points_per_game
+        description: "Average points scored per game."
+      - name: pct_field_goals
+        description: "Field goal percentage."
+      - name: pct_three_point
+        description: "Three-point percentage."
+      - name: pct_throws_attempted
+        description: "Free throw percentage."
+      - name: rebounds_per_game
+        description: "Average rebounds per game."
+      - name: assists_per_game
+        description: "Average assists per game."
+      - name: steals_per_game
+        description: "Average steals per game."
+      - name: blocks_per_game
+        description: "Average blocks per game."
+      - name: avg_spending
+        description: "Average team spending over the specified seasons."
+

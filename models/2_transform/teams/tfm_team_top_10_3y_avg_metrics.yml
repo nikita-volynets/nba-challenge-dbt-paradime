@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: tfm_team_top_10_3y_avg_metrics
+    description: "This model calculates three-year average metrics for the top 10 NBA teams based on their win rate from 2020 to 2022 during the regular season. It includes performance metrics like win rate, points per game, shooting percentages (field goals, three-pointers, free throws), rebounds, assists, steals, blocks per game, and average spending."
+    columns:
+      - name: team_name
+        description: "Name of the NBA team."
+        tests:
+          - not_null
+          - unique
+      - name: win_rate
+        description: "Average win rate of the team over the specified seasons."
+      - name: points_per_game
+        description: "Average points scored per game."
+      - name: pct_field_goals
+        description: "Field goal shooting percentage."
+      - name: pct_three_point
+        description: "Three-point shooting percentage."
+      - name: pct_throws_attempted
+        description: "Free throw shooting percentage."
+      - name: rebounds_per_game
+        description: "Average rebounds per game."
+      - name: assists_per_game
+        description: "Average assists per game."
+      - name: steals_per_game
+        description: "Average steals per game."
+      - name: blocks_per_game
+        description: "Average blocks per game."
+      - name: avg_spending
+        description: "Average spending on team payroll and luxury tax."

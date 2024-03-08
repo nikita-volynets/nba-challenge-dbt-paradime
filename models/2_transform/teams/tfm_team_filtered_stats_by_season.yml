@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: tfm_team_filtered_stats_by_season
+    description: "This model combines team performance statistics with geographical information, highlighting essential metrics such as games played, points, wins, conference and division ranks, shooting performance, total rebounds, assists, steals, turnovers, and blocks for each season."
+    columns:
+      - name: team_id
+        description: "Unique identifier for the team."
+        tests:
+          - not_null
+      - name: team_name
+        description: "Name of the NBA team."
+      - name: team_city
+        description: "City where the team is based."
+      - name: team_state
+        description: "State where the team is located."
+      - name: season
+        description: "NBA season for which the statistics apply."
+      - name: games_played
+        description: "Total number of regular season games played by the team."
+      - name: points
+        description: "Total points scored by the team during the season."
+      - name: wins
+        description: "Number of wins achieved by the team during the season."
+      - name: conference_rank
+        description: "Rank of the team within their conference."
+      - name: division_rank
+        description: "Rank of the team within their division."
+      - name: field_goals_made
+        description: "Total number of field goals made by the team during the season."
+      - name: field_goals_attempted
+        description: "Total number of field goals attempted by the team during the season."
+      - name: three_pointers_made
+        description: "Total number of three-pointers made by the team during the season."
+      - name: three_pointers_attempted
+        description: "Total number of three-pointers attempted by the team during the season."
+      - name: total_rebounds
+        description: "Total number of rebounds secured by the team during the season."
+      - name: assists
+        description: "Total number of assists made by the team during the season."
+      - name: steals
+        description: "Total number of steals made by the team during the season."
+      - name: turnovers
+        description: "Total number of turnovers committed by the team during the season."
+      - name: blocks
+        description: "Total number of blocks made by the team during the season."

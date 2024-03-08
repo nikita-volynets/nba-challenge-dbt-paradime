@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: m_fullmoon_raptors_games
+    description: "This model filters Toronto Raptors games from 'tfm_raptors_games' to identify those played on full moon dates, based on 'seed_full_moon_dates'. It includes game identifiers, dates, win/loss status, points, field goals, three-pointers, free throws, rebounds, assists, steals, blocks, turnovers, and personal fouls specifically for games occurring on full moon dates."
+    columns:
+      - name: team_id
+        description: "Unique identifier for the Toronto Raptors."
+      - name: team_name
+        description: "Name of the team, specifically 'Toronto Raptors' for this model."
+      - name: season
+        description: "NBA season during which the game was played."
+      - name: game_type
+        description: "Type of game, e.g., Regular Season, Playoffs."
+      - name: game_id
+        description: "Unique identifier for the game."
+      - name: game_date
+        description: "Date on which the game was played."
+      - name: is_win
+        description: "Indicates whether the Raptors won (1) or lost (0) the game."
+      - name: points
+        description: "Total points scored by the Raptors in the game."
+      - name: field_goals_made
+        description: "Number of field goals made by the Raptors."
+      - name: field_goals_attempted
+        description: "Number of field goals attempted by the Raptors."
+      - name: three_point_made
+        description: "Number of three-point field goals made by the Raptors."
+      - name: three_point_attempted
+        description: "Number of three-point field goals attempted by the Raptors."
+      - name: free_throws_made
+        description: "Number of free throws made by the Raptors."
+      - name: free_throws_attempted
+        description: "Number of free throws attempted by the Raptors."
+      - name: rebounds
+        description: "Total number of rebounds secured by the Raptors."
+      - name: assists
+        description: "Total number of assists made by the Raptors."
+      - name: steals
+        description: "Total number of steals made by the Raptors."
+      - name: blocks
+        description: "Total number of blocks made by the Raptors."
+      - name: turnovers
+        description: "Total number of turnovers committed by the Raptors."
+      - name: personal_fouls
+        description: "Total number of personal fouls committed by the Raptors."
