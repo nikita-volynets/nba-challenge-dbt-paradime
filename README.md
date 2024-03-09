@@ -251,7 +251,7 @@ For Team Performance Dashboard **m_team_performance_by_season** model was create
 
 **Step 1: Evaluate Team Performance**
 
-[Link to Hex App](https://app.hex.tech/9fbdd66e-c23f-44d7-9431-ec421afdbe0a/app/4de47f4c-016b-4678-a0fd-5dd7b42df9df/latest)
+[Link to the Hex App](https://app.hex.tech/9fbdd66e-c23f-44d7-9431-ec421afdbe0a/app/4de47f4c-016b-4678-a0fd-5dd7b42df9df/latest)
 
 To get a clear picture, all the metrics were averaged over the last three full NBA seasons: 2020/21, 2021/22, and 2022/23.
 
@@ -346,7 +346,7 @@ To create the final analysis model called **`m_fullmoon_raptors_games`**, two ma
 <a id="data-analysis-2"></a>
 ### Data analysis
 
-Hex App: https://app.hex.tech/9fbdd66e-c23f-44d7-9431-ec421afdbe0a/app/f7273ecc-1470-442c-9f4d-7f5b5553a7a9/latest
+[Link to the Hex App](https://app.hex.tech/9fbdd66e-c23f-44d7-9431-ec421afdbe0a/app/f7273ecc-1470-442c-9f4d-7f5b5553a7a9/latest)
 
 1. **How many Toronto Raptors games were played on the full moon dates during Regular season?**
 
