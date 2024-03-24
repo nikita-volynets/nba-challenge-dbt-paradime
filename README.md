@@ -36,7 +36,8 @@ This project was created for the *dbt™ data modeling challenge - NBA Edition*
 - [Hex](https://hex.tech/) for data analysis and ad-hoc visualisations
 - [Sigma](https://www.sigmacomputing.com/) for dashboard creation
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/f7f30961-1b77-44d2-b064-15c78e977070)
+![jpeg NBA schema](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/a724f30d-e13b-478a-9682-834e464fd6f9)
+
 
 
 ## DBT project architecture
