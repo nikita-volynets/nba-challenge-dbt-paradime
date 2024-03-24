@@ -290,7 +290,7 @@ In the previous step, important metrics were reviewed and areas needing improvem
 
 **[Link to the Dashboard](https://app.sigmacomputing.com/paradime-io-nba/workbook/workbook-3UFg1EvbT5BriHVxB7cdI1?:link_source=share)**
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/83a9d4ba-12c6-4de4-9461-4f477f42a4c3)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/7c7217d2-96d2-4a69-9107-e8b6245a8968)
 
 
 **Filters:** Users can select a particular team, season, whether it's a Regular game or Playoffs, and the City and State.
@@ -299,7 +299,7 @@ In the previous step, important metrics were reviewed and areas needing improvem
 
 Small descriptions are provided for some metrics to help explain them better.
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/48b6b93b-acda-4830-ac3d-e60390387949)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/e9926953-3e79-4775-924a-b95bf40a40a0)
 
 
 **Table:**
