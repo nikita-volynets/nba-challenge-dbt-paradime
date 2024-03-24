@@ -336,8 +336,7 @@ The objective is to analyze Toronto Raptors games on the full moon dates and ide
 <a id="dbt-models-2"></a>
 ### DBT Models
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/1103a615-0624-4529-9286-1a64d0b9a3f7)
-
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/48febbb1-0cd8-4673-b998-5754b162dcad)
 
 To create the final analysis model called **`m_fullmoon_raptors_games`**, two main components were used:
 
@@ -351,19 +350,22 @@ To create the final analysis model called **`m_fullmoon_raptors_games`**, two ma
 
 1. **How many Toronto Raptors games were played on the full moon dates during Regular season?**
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/704c7eb2-1269-4985-a181-a15313db45d4)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/bafc3272-c8c9-491d-9066-afb1196747a9)
+
 
 From 2009 to 2023 were played 37 games on the full moon games, on average 2.5 games per year.
 
 2. **Toronto Raptors won or lost most of the games in full moon dates during Regular Season?**
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/30536c7f-8a0b-4f08-b6c6-af3a320458d6)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/50e89434-0b44-45af-a2d6-42ea8ffb599a)
+
 
 Toronto won 18 games and lost 22. However, it's clear that most of the losses happened before 2017, and they achieved more wins after 2017.
 
 3. **What about Playoff games on full moon dates?**
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/0a6216d4-2215-4100-a7bb-d132c8df88db)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/48495fc0-f931-4a7d-b380-d0f7bf826da7)
+
 
 The Toronto Raptors played only three games on full moon dates, winning two and losing one. Because there is so little data, it's not possible to use this information to predict their playoff performance.
 
