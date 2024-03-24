@@ -258,20 +258,20 @@ To get a clear picture, all the metrics were averaged over the last three full N
 
 First, win rate will be used as a measure of success to track team performance and compare it with that of the Toronto Raptors.
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/eb640b09-2814-4a52-9bcd-d87b08343fe8)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/d3b84a76-79de-44bb-bf27-0da1ee8575cd)
 
 The chart shows that Toronto has a win rate of 49%, which isn't bad, but it's still lower than most other teams.
 
 Next, the total spendings by NBA teams will be analyzed:
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/a7d62a0b-dd88-4ec4-a080-ea9bb1b0aa91)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/2015f9db-2f26-4fd0-86a5-6825e03b9c41)
 
 
 The chart reveals that the Toronto Raptors have a budget of $137 million, placing them in the middle compared to other teams. This is only $10 million (about 7%) less than the team ranked 10th. This suggests that with effective management, Toronto could break into the top 10.
 
 Next, a comparison of the Toronto Raptors' performance metrics with those of the top-10 teams will be conducted.
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/dd9e8b9f-3254-4e8a-892f-6b280957911c)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/b1b3aa56-b391-43fe-bc73-9667062f917e)
 
 The table highlights four main improvement areas for the Toronto Raptors to potentially rank among the top-10 teams:
 
