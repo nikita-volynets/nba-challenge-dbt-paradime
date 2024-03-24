@@ -56,7 +56,7 @@ The project consists of 3 layers:
 - Business: Aimed at professionals who need to analyze data or make visualizations and dashboards, like business stakeholders or data analysts.
 - Fans: Designed for NBA fans who want to explore and analyze the data for fun.
     
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/8c4cef22-db7b-4194-9a97-51f9726d71ef)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/ae09d8b2-9858-48e7-a2a5-ef57c6477a1e)
 
 
 ### **Exposures**
@@ -197,8 +197,7 @@ line_position = leadin
 
 To ensure the dbt project runs every day, a job was set up to follow a daily routine using Bolt UI, which is a job scheduler found on Paradime:
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/9640579e-1412-4679-a501-5180ac440817)
-
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/90c7b14c-8d8d-4895-8d95-7c3eeb4567de)
 
 ## Analysis for General Manager
 
@@ -225,7 +224,7 @@ To meet this goal, General Managers and their support teams should follow these 
 
 ### **DBT Models**
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/c8a5acd4-e936-43d7-8471-e06bb48aa85b)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/4c8a181e-e35e-43bd-a5bc-beae71af8a8a)
 
 To prepare the final analysis model, two source models were used:
 
@@ -245,7 +244,8 @@ In the marts layer:
 
 For Team Performance Dashboard **m_team_performance_by_season** model was created:
 
-![image](https://github.com/nikita-volynets/paradime-dbt-nba-challenge/assets/22579201/01c8a5f1-8459-458b-b145-9bd1f9ec5b40)
+![image](https://github.com/nikita-volynets/nba-challenge-dbt-paradime/assets/22579201/ee220c25-c904-4474-8e62-ab83d1c7a343)
+
 
 
 ### Data analysis
